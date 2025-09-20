@@ -89,7 +89,7 @@ Successful execution:
 ![Step Function Success](./assets/stepfunction-screenshots/execution-success.png)
 
 Failed execution:
-![Step Function Failure](.assets/stepfunction-screenshots/execution-failure.png)
+![Step Function Failure](./assets/stepfunction-screenshots/execution-failure.png)
 
 ## 🔗 AWS Environment Access
 
