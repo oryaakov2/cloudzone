@@ -79,7 +79,7 @@ REACT_APP_API_KEY=RTVpwPCwWQ8jcyzqJLKTD5KZOKamFJal2GpnzogJ
    - Delete a customer ID
 
 ### Step Functions Testing
-1. Navigate to the Step Function execution history URL above
+1. Navigate to the Step Function execution history URL below
 2. Trigger a new execution by adding a customer ID via the API
 3. Monitor the workflow execution and logs
 
