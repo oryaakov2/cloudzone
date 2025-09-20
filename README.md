@@ -85,10 +85,8 @@ REACT_APP_API_KEY=RTVpwPCwWQ8jcyzqJLKTD5KZOKamFJal2GpnzogJ
 
 ## Example Executions
 
-Successful execution:
 ![Step Function Success](./assets/stepfunction-screenshots/execution-success.png)
 
-Failed execution:
 ![Step Function Failure](./assets/stepfunction-screenshots/execution-failure.png)
 
 ## 🔗 AWS Environment Access
