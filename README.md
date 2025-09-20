@@ -2,12 +2,6 @@
 
 A full-stack, event-driven cloud-native application for managing customer IDs using AWS serverless services.
 
-## 🔗 AWS Environment Access
-
-- **CloudFront (React App)**: https://d2vgfjuqs9k9r1.cloudfront.net/
-- **API Gateway (REST API)**: https://eu-west-1.console.aws.amazon.com/apigateway/main/apis/t40dks3sjc/resources?api=t40dks3sjc&region=eu-west-1
-- **Step Function Execution History**: https://eu-west-1.console.aws.amazon.com/states/home?region=eu-west-1#/statemachines/view/arn%3Aaws%3Astates%3Aeu-west-1%3A138008497640%3AstateMachine%3AMyStateMachine-5ebb54e1?type=standard
-- **Step Function ARN**: arn:aws:states:eu-west-1:138008497640:stateMachine:MyStateMachine-5ebb54e1
 ## 🏗️ Architecture Diagram
 
 ```mermaid
@@ -88,3 +82,17 @@ REACT_APP_API_KEY=RTVpwPCwWQ8jcyzqJLKTD5KZOKamFJal2GpnzogJ
 1. Navigate to the Step Function execution history URL above
 2. Trigger a new execution by adding a customer ID via the API
 3. Monitor the workflow execution and logs
+
+## Example Executions
+
+Successful execution:
+![Step Function Success](./assets/stepfunction-screenshots/execution-success.png)
+
+Failed execution:
+![Step Function Failure](.assets/stepfunction-screenshots/execution-failure.png)
+
+## 🔗 AWS Environment Access
+
+- **CloudFront (React App)**: https://d2vgfjuqs9k9r1.cloudfront.net/
+- **API Gateway (REST API)**: https://eu-west-1.console.aws.amazon.com/apigateway/main/apis/t40dks3sjc/resources?api=t40dks3sjc&region=eu-west-1
+- **Step Function Execution History**: https://eu-west-1.console.aws.amazon.com/states/home?region=eu-west-1#/statemachines/view/arn%3Aaws%3Astates%3Aeu-west-1%3A138008497640%3AstateMachine%3AMyStateMachine-5ebb54e1?type=standard
