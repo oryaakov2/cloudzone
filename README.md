@@ -91,7 +91,7 @@ REACT_APP_API_KEY=RTVpwPCwWQ8jcyzqJLKTD5KZOKamFJal2GpnzogJ
 
 ## 🔗 AWS Environment Access
 
-- **CloudFront (React App)**: https://d2vgfjuqs9k9r1.cloudfront.net/
-- **API Gateway (REST API)**: https://eu-west-1.console.aws.amazon.com/apigateway/main/apis/t40dks3sjc/resources?api=t40dks3sjc&region=eu-west-1
-- **Step Function Execution History**: https://eu-west-1.console.aws.amazon.com/states/home?region=eu-west-1#/statemachines/view/arn%3Aaws%3Astates%3Aeu-west-1%3A138008497640%3AstateMachine%3AMyStateMachine-5ebb54e1?type=standard
+- **CloudFront (React App):** [Open App](https://d2vgfjuqs9k9r1.cloudfront.net/)  
+- **API Gateway (REST API):** [Open API](https://t40dks3sjc.execute-api.eu-west-1.amazonaws.com/prod/)  
+- **Step Function Execution History:** [View in AWS Console](https://eu-west-1.console.aws.amazon.com/states/home?region=eu-west-1#/statemachines/view/arn%3Aaws%3Astates%3Aeu-west-1%3A138008497640%3AstateMachine%3AMyStateMachine-5ebb54e1?type=standard)
 - **Step Function ARN**: arn:aws:states:eu-west-1:138008497640:stateMachine:MyStateMachine-5ebb54e1
